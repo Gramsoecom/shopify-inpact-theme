@@ -185,27 +185,12 @@
         "subheading_NL9eYH": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_hDaVWF": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_NjQtiJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": ""
           }
         }
       },
       "block_order": [
-        "subheading_NL9eYH",
-        "heading_hDaVWF",
-        "richtext_NjQtiJ"
+        "subheading_NL9eYH"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -213,11 +198,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/3_2_5d39b544-d402-4b1d-850e-6b622f96b3a7_2.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_jXczVJ": {
@@ -252,6 +238,7 @@
         "item_WwHRw4": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/61NeT_HA-bL.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -264,6 +251,7 @@
         "item_GB3MeC": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/1733756389__0__XVfwlTXy__qY9TN8v-uY__original.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -276,6 +264,7 @@
         "item_tJcVwC": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/1733756389__0__BN58Jpbt__OvHpTFRd9v__original.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -305,46 +294,46 @@
         "text_color": ""
       }
     },
-    "featured_product_HdginC": {
+    "featured_product_MmRak7": {
       "type": "featured-product",
       "blocks": {
-        "vendor_nBiLkK": {
+        "vendor_NrniM7": {
           "type": "vendor",
           "settings": {}
         },
-        "title_qKc4de": {
+        "title_GwaYr7": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
-        "badges_XjjaRk": {
+        "badges_9CMLnd": {
           "type": "badges",
           "settings": {}
         },
-        "price_3nB6Bf": {
+        "price_9GXXCh": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
         },
-        "rating_Vq3bWT": {
+        "rating_g7nFjC": {
           "type": "rating",
           "settings": {
             "show_empty": false
           }
         },
-        "separator_xEpdDP": {
+        "separator_g9cmRN": {
           "type": "separator",
           "settings": {}
         },
-        "description_rB4AEH": {
+        "description_RFzEMz": {
           "type": "description",
           "settings": {
             "collapse_content": false
           }
         },
-        "variant_picker_UWCdjw": {
+        "variant_picker_MaLm3Y": {
           "type": "variant_picker",
           "settings": {
             "hide_sold_out_variants": false,
@@ -354,43 +343,43 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector_mQ8gWn": {
+        "quantity_selector_YbAQ3w": {
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_mXYeLB": {
+        "buy_buttons_zwh4fz": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#1a1a1a",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
         },
-        "pickup_availability_Te3hJH": {
+        "pickup_availability_Uywqfk": {
           "type": "pickup_availability",
           "settings": {}
         }
       },
       "block_order": [
-        "vendor_nBiLkK",
-        "title_qKc4de",
-        "badges_XjjaRk",
-        "price_3nB6Bf",
-        "rating_Vq3bWT",
-        "separator_xEpdDP",
-        "description_rB4AEH",
-        "variant_picker_UWCdjw",
-        "quantity_selector_mQ8gWn",
-        "buy_buttons_mXYeLB",
-        "pickup_availability_Te3hJH"
+        "vendor_NrniM7",
+        "title_GwaYr7",
+        "badges_9CMLnd",
+        "price_9GXXCh",
+        "rating_g7nFjC",
+        "separator_g9cmRN",
+        "description_RFzEMz",
+        "variant_picker_MaLm3Y",
+        "quantity_selector_YbAQ3w",
+        "buy_buttons_zwh4fz",
+        "pickup_availability_Uywqfk"
       ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "legging-sculpta",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -399,7 +388,7 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "#ffffff",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
@@ -536,7 +525,7 @@
     "image_with_text_overlay_F3kdm6",
     "rich_text_jXczVJ",
     "multi_column_G9QYxK",
-    "featured_product_HdginC",
+    "featured_product_MmRak7",
     "tabs_LLLdNk",
     "faq",
     "contact_zNiNrT"
