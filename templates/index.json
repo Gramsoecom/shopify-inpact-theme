@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "text": "Vu sur:",
-            "heading_tag": "h1",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -142,7 +142,7 @@
           "type": "heading",
           "settings": {
             "text": "Pourquoi choisir Sculpta?",
-            "heading_tag": "h1",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -195,10 +195,11 @@
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/3_2_5d39b544-d402-4b1d-850e-6b622f96b3a7_2.jpg",
+        "image": "shopify://shop_images/6_benefices_2.png",
+        "mobile_image": "shopify://shop_images/6_benefices_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -213,7 +214,7 @@
           "type": "heading",
           "settings": {
             "text": "Nos clientes en parlent le mieux",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -297,14 +298,22 @@
     "featured_product_MmRak7": {
       "type": "featured-product",
       "blocks": {
-        "vendor_NrniM7": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_nJc6iq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"social-proof-slide__block-rating mt-2\" style=\"display: flex; align-items: center; gap: 6px; font-size: 14px;\">\n  <span class=\"social-proof-slide__block-stars\" style=\"display: flex; gap: 4px;\">\n    {% for i in (1..5) %}\n      <span class=\"social-proof-star\" style=\"display: flex; align-items: center; justify-content: center; width: 16px; height: 16px;\">\n        <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"#00C48C\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M12 2L14.9 8.6L22 9.3L16.5 14.1L18 21.1L12 17.8L6 21.1L7.5 14.1L2 9.3L9.1 8.6L12 2Z\"/>\n        </svg>\n      </span>\n    {% endfor %}\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\" style=\"color: #000000;\">\n    4.8 <span style=\"color: #777;\">(589 avis)</span>\n  </span>\n</div>"
+          }
         },
         "title_GwaYr7": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "liquid_Wtw3Cw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">En stock : 3 restants.</div>\n</div>"
           }
         },
         "badges_9CMLnd": {
@@ -364,8 +373,9 @@
         }
       },
       "block_order": [
-        "vendor_NrniM7",
+        "liquid_nJc6iq",
         "title_GwaYr7",
+        "liquid_Wtw3Cw",
         "badges_9CMLnd",
         "price_9GXXCh",
         "rating_g7nFjC",
