@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "text": "Vu sur:",
-            "heading_tag": "h3",
+            "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
@@ -142,7 +142,7 @@
           "type": "heading",
           "settings": {
             "text": "Pourquoi choisir Sculpta?",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -214,7 +214,7 @@
           "type": "heading",
           "settings": {
             "text": "Nos clientes en parlent le mieux",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -329,7 +329,7 @@
         "image_PxWNRk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Orange_Rose_Noir_Colore_Black_Friday_Banniere.png",
+            "image": "shopify://shop_images/Copie_de_Orange_Rose_Noir_Colore_Black_Friday_Banniere.png",
             "alignment": "start",
             "max_width": 500
           }
