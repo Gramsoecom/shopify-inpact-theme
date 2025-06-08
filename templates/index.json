@@ -50,32 +50,6 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "rich_text_Gd3XpK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mrq9bF": {
-          "type": "heading",
-          "settings": {
-            "text": "Vu sur:",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_mrq9bF"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "logo_list_tfHJtN": {
       "type": "logo-list",
       "blocks": {
@@ -122,7 +96,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "",
+        "title": "Vu sur:",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
@@ -610,7 +584,6 @@
   },
   "order": [
     "slideshow",
-    "rich_text_Gd3XpK",
     "logo_list_tfHJtN",
     "rich_text_XJCGNP",
     "impact-text",
