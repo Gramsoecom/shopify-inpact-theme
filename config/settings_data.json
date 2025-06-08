@@ -59,6 +59,11 @@
         "type": "shopify://apps/size-chart/blocks/app-embed/305100b1-3599-492a-a54d-54f196ff1f94",
         "disabled": false,
         "settings": {}
+      },
+      "17198465164502963513": {
+        "type": "shopify://apps/parcel-panel/blocks/app.embed/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

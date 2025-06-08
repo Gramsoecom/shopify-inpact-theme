@@ -349,10 +349,6 @@
             "payment_button_text_color": ""
           }
         },
-        "size_chart_mp_inline_button_ypVjf8": {
-          "type": "shopify://apps/size-chart/blocks/mp-inline-button/305100b1-3599-492a-a54d-54f196ff1f94",
-          "settings": {}
-        },
         "liquid_cmb4ft": {
           "type": "liquid",
           "settings": {
@@ -377,7 +373,6 @@
         "quantity_selector_YbAQ3w",
         "kaching_bundles_app_block_Ayna3T",
         "buy_buttons_zwh4fz",
-        "size_chart_mp_inline_button_ypVjf8",
         "liquid_cmb4ft",
         "pickup_availability_Uywqfk"
       ],
