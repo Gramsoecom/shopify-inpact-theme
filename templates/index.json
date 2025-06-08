@@ -358,6 +358,10 @@
         "pickup_availability_Uywqfk": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "size_chart_mp_inline_button_G84Cxg": {
+          "type": "shopify://apps/size-chart/blocks/mp-inline-button/305100b1-3599-492a-a54d-54f196ff1f94",
+          "settings": {}
         }
       },
       "block_order": [
@@ -374,7 +378,8 @@
         "kaching_bundles_app_block_Ayna3T",
         "buy_buttons_zwh4fz",
         "liquid_cmb4ft",
-        "pickup_availability_Uywqfk"
+        "pickup_availability_Uywqfk",
+        "size_chart_mp_inline_button_G84Cxg"
       ],
       "name": "Featured product",
       "settings": {
@@ -393,6 +398,31 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "174942021088d8cae4": {
+      "type": "apps",
+      "blocks": {
+        "size_chart_mp_dropdown_button_RA7tV7": {
+          "type": "shopify://apps/size-chart/blocks/mp-dropdown-button/305100b1-3599-492a-a54d-54f196ff1f94",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "size_chart_mp_dropdown_button_RA7tV7"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "tabs_LLLdNk": {
@@ -591,6 +621,7 @@
     "rich_text_jXczVJ",
     "multi_column_G9QYxK",
     "featured_product_MmRak7",
+    "174942021088d8cae4",
     "tabs_LLLdNk",
     "faq",
     "contact_zNiNrT",
