@@ -338,6 +338,12 @@
             "product": "legging-sculpta"
           }
         },
+        "bf_size_charts_homepage_block_EgzxXM": {
+          "type": "shopify://apps/bf-size-charts/blocks/homepage-block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy_buttons_zwh4fz": {
           "type": "buy_buttons",
           "settings": {
@@ -347,12 +353,6 @@
             "atc_button_text_color": "#1a1a1a",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "bf_size_charts_homepage_block_EgzxXM": {
-          "type": "shopify://apps/bf-size-charts/blocks/homepage-block/47ee4f2e-eb5e-41af-9beb-e2786646bf2a",
-          "settings": {
-            "product": "{{section.settings.product}}"
           }
         },
         "liquid_cmb4ft": {
@@ -378,8 +378,8 @@
         "variant_picker_MaLm3Y",
         "quantity_selector_YbAQ3w",
         "kaching_bundles_app_block_Ayna3T",
-        "buy_buttons_zwh4fz",
         "bf_size_charts_homepage_block_EgzxXM",
+        "buy_buttons_zwh4fz",
         "liquid_cmb4ft",
         "pickup_availability_Uywqfk"
       ],
